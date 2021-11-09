@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+.go__back__button {
+  margin: 2rem;
+}
+a,
+a:visited {
+  color: #929292;
+  text-decoration: none;
+}
+
+.product__image {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.product__image img {
+  max-width: 85%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.new__product__text {
+  font-size: 14px;
+  margin: 2rem;
+}
+
+.new__product__information h2 {
+  padding: 0 120px 0 40px;
+  letter-spacing: 0.1cm;
+}
+
+.new__product__information p {
+  padding: 20px;
+  line-height: 0.8cm;
+  font-weight: 14px;
+  color: #929292;
+}
